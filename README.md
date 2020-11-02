@@ -1,2 +1,2 @@
 # Legion::Extensions::Pihole
-Connects Legion to Pihole
+Connects LegionIO to [Pi-hole](https://pi-hole.net/)
