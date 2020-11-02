@@ -5,6 +5,11 @@ module Legion
         module Api
           include Legion::Extensions::Pihole::Helpers::Client
 
+          def summary(host: '127.0.0.1', **opts)
+            results = client(host: host, **opts).get('/admin/api.php?summary')
+            { success: results.success?, **results.body }
+          end
+
           def status(host: '127.0.0.1', **opts)
             results = client(host: host, **opts).get('/admin/api.php?status')
             { success: results.success?, **results.body }
