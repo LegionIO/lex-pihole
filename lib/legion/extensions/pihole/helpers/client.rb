@@ -1,3 +1,6 @@
+require 'faraday'
+require 'faraday_middleware'
+
 module Legion
   module Extensions
     module Pihole
