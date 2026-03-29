@@ -10,7 +10,7 @@ Legion Extension that connects LegionIO to Pi-hole via the admin API. Provides r
 
 **GitHub**: https://github.com/LegionIO/lex-pihole
 **License**: MIT
-**Version**: 0.1.0
+**Version**: 0.1.2
 
 ## Architecture
 
